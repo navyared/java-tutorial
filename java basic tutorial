@@ -1,0 +1,43 @@
+public class Main {
+  public static void main(String[] args) {
+  System.out.println("variables");
+   int myNum;
+    myNum = 20; 
+    System.out.println(myNum);
+    float b;
+    b = 30.1111f;
+    System.out.println(b);
+    // while using float data type add "f" at the end of the value
+    String name;
+    name = "navya";
+     System.out.println(name);
+     //The println() method is often used to display variables.
+//To combine both text and a variable, use the + character:
+System.out.println("hello" +name);
+    //You can also use the + character to add a variable to another variable:
+     String firstname = "Navya";
+     String LASTname = "Reddy";
+     String fullname = firstname + LASTname ;
+     System.out.println(fullname );
+     
+     //For numeric values, the + character works as a mathematical operator 
+     int x = 10;
+     int y = 20;
+     int z = x+y;
+      System.out.println(z);
+     System.out.println(z + x);
+      System.out.println(z * x);
+      System.out.println(y * x);
+     System.out.println(y / x);
+     System.out.println(y % x);
+     //To declare more than one variable of the same type, you can use a comma-separated list:
+     int d = 1,e = 2,f = 3;
+     System.out.println(d + e + f);
+     //can also assign the same value to multiple variables in one line:
+     int k,l,m;
+     k = l = m = 50;
+     System.out.println(k + l + m);
+     
+  }
+}
+
